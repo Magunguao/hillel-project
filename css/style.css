@@ -216,6 +216,41 @@ hr {
   border-radius: 10px;
 }
 
+.main-clicker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+.main-clicker .clicker-text {
+  margin-left: 40px;
+  width: 400px;
+  height: 150px;
+  color: #696969;
+}
+.main-clicker .clicker-text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-clicker .clicker-text h1 {
+  color: #f48b10;
+}
+.main-clicker .clicker-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.main-clicker .clicker-form .clicker-score {
+  width: 350px;
+  height: 200px;
+  background-color: #f48b10;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 140px;
+}
+
 .main-container {
   position: relative;
   background-color: #fefefe;
@@ -280,6 +315,24 @@ input[type="reset"] {
 
 input[type="reset"]:hover {
   background: #919191;
+}
+
+input[type="button"] {
+  margin-top: 50px;
+  border: none;
+  background: #e5e6e5;
+  width: 150px;
+  height: 50px;
+  color: white;
+  background: #ff7800;
+  font-size: 22px;
+  transition: all 0.1s linear;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background: #ffa028;
 }
 
 input[type="text"] {
