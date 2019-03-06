@@ -146,7 +146,7 @@ hr {
   margin: 20px 20px 20px 0;
   width: 200px;
   height: 50px;
-  background: #696969;
+  background: #f48b10;
   text-align: center;
   padding: 10px;
   font-size: 28px;
@@ -157,7 +157,7 @@ hr {
   cursor: pointer;
 }
 .main-block .main-first-block .first-block-text .button:hover {
-  background: #ff7800;
+  background: #ffa028;
 }
 .main-block .main-first-block .first-block-text p {
   font-size: 18px;
@@ -188,7 +188,7 @@ hr {
   margin: 20px 20px 20px 0;
   width: 200px;
   height: 50px;
-  background: #696969;
+  background: #f48b10;
   text-align: center;
   padding: 10px;
   font-size: 28px;
@@ -199,7 +199,7 @@ hr {
   cursor: pointer;
 }
 .main-block .main-second-block .second-block-text .button:hover {
-  background: #ff7800;
+  background: #ffa028;
 }
 .main-block .main-second-block .second-block-text p {
   font-size: 18px;
